@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
   <style>
-    /*
-    .hamlet{
+    
+    /* #play span{
         background-color: yellow;
-    }
-    */
+    } */
+   
   </style>
  </head>
  <body>
@@ -20,16 +20,47 @@
      <h1>DOM Play</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#" target="_blank">Name of project goes here</a>
+            <a href="#" target="_blank">DOM Play</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-    <h2 class="subheader">Title Goes Here</h2>
-    <p><span onclick="this.style.backgroundColor='yellow'">Hamlet: To be or not to be?</span></p>
-    <p>Skull: Are you talking to me?</p>
-    <p><Span class="hamlet">Hamlet: What did you say?</Span></p>
+    <h2 class="subheader">Romeo and Juliet, Act 2, Scene 2 </h2>
+  <div id="play">
+    <p><span data-actor="juliet">Juliet: O Romeo, Romeo! wherefore art thou Romeo?
+      Deny thy father and refuse thy name;
+      Or, if thou wilt not, be but sworn my love,
+      And I'll no longer be a Capulet.</span></p>
+    <p><span data-actor="romeo">Romeo: Shall I hear more, or shall I speak at this?</span></p>
+    <p><Span data-actor="juliet">Juliet: 'Tis but thy name that is my enemy: (40)
+      Thou art thyself, though not a Montague.
+      What's Montague? It is nor hand, nor foot,
+      Nor arm, nor face, nor any other part
+      Belonging to a man. O, be some other name.
+      What's in a name? That which we call a rose
+      By any other name would smell as sweet;
+      So Romeo would, were he not Romeo call'd,
+      Retain that dear perfection which he owes
+      Without that title. Romeo, doff thy name,
+      And for that name, which is no part of thee, (50)
+      Take all myself.</Span></p>
+    <p><span data-actor="romeo">Romeo: I take thee at thy word.
+      Call me but love, and I'll be new baptis'd;
+      Henceforth I never will be Romeo.</span></p>
+    <p><Span data-actor="juliet">Juliet: What man art thou that, thus bescreened in night,
+      So stumblest on my counsel?</Span></p>
+      <p><span data-actor="romeo">Romeo: By a name
+        I know not how to tell thee who I am:
+        My name, dear saint, is hateful to myself,
+        Because it is an enemy to thee. (60)
+        Had I it written, I would tear the word.</span></p>
+        <p><Span data-actor="juliet">Juliet: My ears have yet not drunk a hundred words
+          Of thy tongue's uttering, yet I know the sound.
+          Art thou not Romeo, and a Montague?</Span></p>
+
+
+  </div>
      <footer>
       <p><small>&copy; 2022 by 
           Sonia Rosales, All Rights Reserved ~ 
